@@ -1,0 +1,21 @@
+@import "~normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+.wrapper {
+  display: flex;
+  flex: 0 1 1190px;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}

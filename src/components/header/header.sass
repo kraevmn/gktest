@@ -1,0 +1,30 @@
+.header
+  display: flex
+  justify-content: center
+  height: 90px
+  border-bottom: 1px solid #ECECF0
+
+.header__items
+  display: flex
+  flex: 1
+  justify-content: space-between
+  align-items: center
+
+.header__logo
+  width: 194px
+  height: 50px
+
+.header__slogan
+  padding-left: 10px
+  font-family: 'Lato', sans-serif
+  font-style: normal
+  font-weight: normal
+  font-size: 15px
+  line-height: 18px
+  color: #72757D
+
+@media all and (max-width: 480px)
+  .header__slogan
+    display: none
+  .header
+    height: 50px
